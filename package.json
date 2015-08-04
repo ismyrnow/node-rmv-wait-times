@@ -1,0 +1,27 @@
+{
+  "name": "rmv-wait-times",
+  "version": "1.0.0",
+  "description": "Simple module to get Massachusetts RMV wait times",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jshint src & tape ./tests/* | tap-spec"
+  },
+  "keywords": [
+    "rmv",
+    "dmv",
+    "massachusetts",
+    "mass",
+    "ma",
+    "massdot"
+  ],
+  "author": "Ishmael Smyrnow",
+  "license": "MIT",
+  "dependencies": {
+    "xml2js": "^0.4.9"
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.2"
+  }
+}
