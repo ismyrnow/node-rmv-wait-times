@@ -1,10 +1,14 @@
 {
   "name": "rmv-wait-times",
   "version": "1.0.0",
-  "description": "Simple module to get Massachusetts RMV wait times",
+  "description": "Simple node module to get Massachusetts RMV wait times",
   "main": "src/index.js",
   "scripts": {
     "test": "jshint src & tape ./tests/* | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ismyrnow/node-rmv-wait-times.git"
   },
   "keywords": [
     "rmv",
@@ -15,6 +19,10 @@
     "massdot"
   ],
   "author": "Ishmael Smyrnow",
+  "bugs": {
+    "url": "https://github.com/ismyrnow/node-rmv-wait-times/issues"
+  },
+  "homepage": "https://github.com/ismyrnow/node-rmv-wait-times",
   "license": "MIT",
   "dependencies": {
     "xml2js": "^0.4.9"
