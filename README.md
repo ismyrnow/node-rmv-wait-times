@@ -1,4 +1,6 @@
-## RMV Wait Times
+[![Build Status](https://travis-ci.org/ismyrnow/node-rmv-wait-times.svg)](https://travis-ci.org/ismyrnow/node-rmv-wait-times)
+
+# RMV Wait Times
 
 A simple node module to get Massachusetts RMV wait times.
 
